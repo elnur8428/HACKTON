@@ -33,14 +33,18 @@ top: 151.78px;
 /* background: #E2CB83; */
 }
 /* Rent out your equipment and get a ton */
-.intro-title_1{
+.container-1{
 position: absolute;
 width: 274px;
 height: 85px;
 left: 108px;
 top: 332px;
 
-font-family: 'Open Sans';
+
+}
+
+.intor__title_1{
+    font-family: 'Open Sans';
 font-style: normal;
 font-weight: 800;
 font-size: 28px;
@@ -50,26 +54,47 @@ line-height: 95%;
 text-transform: uppercase;
 
 color: #FFFFFF;
+
 }
 
-.intro-title_2{
-position: absolute;
-width: 274px;
-height: 85px;
-left: 459px;
-top: 332px;
+.intor__title_1-ton{
+    
+    color: #47A9F1;
+}
+/* .intor__title_diamond{
+    position: absolute;
+    left: 61.96%;
+    right: 18.48%;
+    top: 32.93%;
+    bottom: 48.04%;
 
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 800;
-font-size: 28px;
-line-height: 95%;
-/* or 27px */
+    background: #6EBEFF;
 
-text-transform: uppercase;
+} */
 
-color: #E2CB83;
+/* Rent out your equipment and get a ton */
 
+.container-2{
+    position: absolute;
+    width: 274px;
+    height: 85px;
+    left: 459px;
+    top: 332px;
+
+}
+.intro__title_2{
+  
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 95%;
+    /* or 27px */
+    
+    text-transform: uppercase;
+    
+    color: #E2CB83;
 }
 
 .icon2{
@@ -86,13 +111,13 @@ background: url(/imgs/Icon02-2.png);
 
 
 
-.section-button-rent{
-    position: absolute ;
+.btn-1{
+    position: absolute;
     width: 273px;
     height: 52px;
     left: 109px;
     top: 501px;
-
+    
     background: #E2CB83;
     border-radius: 3px;
 }
@@ -120,7 +145,7 @@ background: url(/imgs/Icon02-2.png);
 }
 
 
-.section-button-buy{
+.btn-2{
     box-sizing: border-box;
 
     position: absolute;

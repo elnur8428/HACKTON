@@ -43,7 +43,7 @@ top: 332px;
 
 }
 
-.intor__title_1{
+.intro__title_1{
     font-family: 'Open Sans';
 font-style: normal;
 font-weight: 800;
@@ -57,18 +57,31 @@ color: #FFFFFF;
 
 }
 
-.intor__title_1-ton{
+.intro__title_1-ton{
     
     color: #47A9F1;
 }
-/* .intor__title_diamond{
+.intro__title_diamond{
     position: absolute;
+
     left: 61.96%;
     right: 18.48%;
-    top: 32.93%;
-    bottom: 48.04%;
+    top: 65.93%;
+    bottom: 48.04%; 
 
     background: #6EBEFF;
+
+
+
+}
+
+/* .intro__title_diamond-back{
+    width: 25px;
+    height: 25px;
+    left: 267px;
+    top: 388px;
+
+    background: #253156; 
 
 } */
 
@@ -102,7 +115,8 @@ color: #FFFFFF;
 position: absolute;
 width: 564px;
 height: 564px;
-left: 804px;
+left: 904px;
+
 top: 80px;
 
 background: url(/imgs/Icon02-2.png);
@@ -112,37 +126,52 @@ background: url(/imgs/Icon02-2.png);
 
 
 .btn-1{
+    box-sizing: border-box;
+
     position: absolute;
     width: 273px;
     height: 52px;
     left: 109px;
     top: 501px;
     
+
     background: #E2CB83;
     border-radius: 3px;
-}
-
-.rent-button{
-    position:absolute;
-    width: 117px;
-    height: 17px;
-    left: 192px;
-    top: 519px; 
     
 
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    /* line-height: 95%; */
-    /* identical to box height, or 17px */
-
+    padding: 8px 50px;
+    /* line-height: 95%;  */
     text-transform: uppercase;
-
+    text-decoration: none;
+    transition:  background-color .1s linear,color .1s linear;
     color: #2D3C6A;
-    z-index: 0;
+    /* z-index: 0; */
+
+     /* identical to box height, or 17px */
+}
+.btn-1:hover{
+    background-color: #fff;
+    color: #333;
+}
+
+
+.button-coin{
+position: absolute;
+width: 346.9px;
+height: 214.15px;
+left: 41.95px;
+top: 420.85px;
+
+background: url(/imgs/coins.svg) no-repeat;
+transform: matrix(1, -0.03, 0.03, 1, 0, 0);
 
 }
+
+
 
 
 .btn-2{
@@ -158,26 +187,34 @@ background: url(/imgs/Icon02-2.png);
     border: 1px solid #DDC379;
     border-radius: 3px;
 
-
-}
-
-.buy-button{
-    position: absolute;
-    width: 107px;
-    height: 17px;
-    left: 562px;
-    top: 519px;
-
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 95%;
-    /* identical to box height, or 17px */
-
+    padding: 8px 70px;
+    /* line-height: 95%;  */
     text-transform: uppercase;
-
-    color: #DDC379;
+    text-decoration: none;
+    transition:  background-color .1s linear,color .1s linear;
 
 }
+
+.button-settings{
+position: absolute;
+width: 99.44px;
+height: 106.35px;
+left: 434px;
+top: 446.48px;
+
+background: url(/imgs/Setting-3.svg);
+transform: matrix(1, -0.03, 0.03, 1, 0, 0);
+
+}
+
+.btn-2:hover{
+    background-color: white;
+    color: #2D3C6A  ;
+}
+
+
 
